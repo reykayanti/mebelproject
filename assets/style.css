@@ -56,11 +56,13 @@ header nav ul li a {
 }
 header nav ul ul {
   position: absolute;
+  /* Optional aja */
+  z-index: 3;
   top: 101%;
   left: 22%;
   display: flex;
   width: 150px;
-  height: 100px;
+  height: 8rem;
   flex-direction: column;
   background-color: #203239;
 }
