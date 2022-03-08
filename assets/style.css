@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 /* Rizki */
 header {
   width: 100%;
@@ -215,10 +216,43 @@ main {
 }
 .about-kn {
   width: 430px;
-  margin: 20px;
+  margin: 50px;
   margin-top: 100px;
+}
+.about-kn h1 {
+  font-family: "Secular One", sans-serif;
 }
 .about-kn p {
   margin-top: 25px;
   font-size: 14px;
+}
+.slg {
+  text-align: center;
+  margin: 150px;
+  margin-top: 200px;
+}
+.slg a {
+  text-decoration: none;
+  color: black;
+}
+.slg h1 {
+  font-family: "Poppins", sans-serif;
+}
+.btn-contact {
+  display: flex;
+  border: 2px solid black;
+  width: 130px;
+  height: 35px;
+  margin: auto;
+  margin-top: 50px;
+  transition: all 0.3s;
+}
+.btn-contact:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.btn-contact p {
+  margin: auto;
+  margin-top: 3px;
 }
