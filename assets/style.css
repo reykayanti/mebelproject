@@ -172,8 +172,8 @@ main {
 
 .top-box2 .square-box3 {
   position: absolute;
-  top: 70px;
-  left: 80px;
+  top: 90px;
+  left: 90px;
   width: 400px;
   height: 420px;
   background: #203239;
@@ -275,16 +275,24 @@ footer a {
   text-decoration: none;
 }
 footer .quicklink {
-  background-color: #455564;
+  /* background-color: #455564; */
   padding-left: 100px;
 }
 footer .quicklink ul li {
   margin: 6px;
   font-size: 13px;
+  list-style: none;
+}
+footer .quicklink a {
+  opacity: 50%;
+  transition: all 0.3s;
+}
+footer .quicklink a:hover {
+  opacity: 100%;
 }
 /* footer kontak */
 footer .contactt {
-  background-color: #455564;
+  /* background-color: #455564; */
 }
 footer .contactt li {
   display: flex;
