@@ -142,6 +142,9 @@ main {
   font-weight: 500;
   font-size: 14px;
 }
+.top-box .box-contact a {
+  text-decoration: none;
+}
 
 .top-box2 {
   position: relative;
@@ -215,9 +218,9 @@ main {
   background: #e0ddaa;
 }
 .about-kn {
-  width: 430px;
+  width: 470px;
   margin: 50px;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .about-kn h1 {
   font-family: "Secular One", sans-serif;
@@ -260,7 +263,7 @@ footer {
   position: relative;
   background-color: #141414;
   color: white;
-  padding: 100px;
+  /* padding: 100px; */
   padding-top: 150px;
 }
 footer .logo {
@@ -269,6 +272,7 @@ footer .logo {
 footer .top {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 80px;
 }
 footer a {
   color: white;
@@ -320,4 +324,10 @@ footer .contactt img {
 footer .contactt p {
   margin-top: 3px;
   font-size: 13px;
+}
+.bottom {
+  font-size: 12px;
+  text-align: center;
+  background-color: black;
+  padding: 30px;
 }
